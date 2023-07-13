@@ -4,7 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>My Portfolio</h1>
+      <h1 className='underline font-bold'>My Portfolio</h1>
+      <p className=''>asdfasdf</p>
     </div>
   );
 }
