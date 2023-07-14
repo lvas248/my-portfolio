@@ -11,7 +11,7 @@ function ProjectCard({project}) {
 
     return ( 
         <div
-            className=' h-[fit-content] flex flex-col flex-col-reverse sm:flex-row border-top p-2 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105  duration-500
+            className=' h-[fit-content] flex flex-col flex-col-reverse sm:flex-row border-bottom p-2 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105  duration-500
             '
         >
 

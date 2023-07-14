@@ -8,7 +8,8 @@ import Contact from './Contact';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-[#f5f4ef]">
+
       <NavBarComp />
       <Home />
       <Projects />
