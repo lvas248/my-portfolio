@@ -1,4 +1,4 @@
-import sasha from './media/sasha.jpeg'
+import sasha from './media/sasha2.png'
 
 function Home() {
 
@@ -17,12 +17,14 @@ function Home() {
                 className='
                 w-[50vw] h-full px-[5%]
                 relative top-20
+                animate-glide-in-left
                 '
                 >
                      <img 
                         src={sasha} 
                         alt='place-holder' 
-                        className='sm:w-fit md:w-[500px] rounded-full mt-[33%]'
+                        className='sm:w-fit md:w-[500px] rounded-full border-1 mt-[33%]                 bg-[rgb(225,74,56)]
+                        '
 
                         
                         />
@@ -30,12 +32,12 @@ function Home() {
             </div>
 
             <div
-                className='flex flex-col w-[50vw] h-full text-left place-content-center'
+                className='flex flex-col w-[50vw] h-full text-left place-content-center animate-glide-in-left'
                 >
-                    <h3 className='text-sm sm:text-base'>Hello there!</h3>
-                    <h1 className='text-lg sm:text-2xl'>I am</h1>
-                    <h1 className='text-xl sm:text-4xl font-bold text-[rgb(225,74,56)] underline underline-offset-3'>Luis <br/>Vasquez</h1>
-                    <p className='text-sm sm:text-base mt-3'>I am a motivated full stack developer with a strong commitment to creating functional and visually appealing web applications. Currently, I am actively searching for new opportunities to grow and contribute my skills.</p>
+                    <h3 className='text-xs sm:text-base'>Hello there!</h3>
+                    <h1 className='text-sm sm:text-2xl'>I am</h1>
+                    <h1 className='text-4xl sm:text-4xl font-bold text-[rgb(225,74,56)] underline underline-offset-3'>Luis <br/>Vasquez</h1>
+                    <p className='text-xs sm:text-base mt-3'>I am a motivated full stack developer with a strong commitment to creating functional and visually appealing web applications. Currently, I am searching for new opportunities to grow and contribute my skills.</p>
 
             </div>
 

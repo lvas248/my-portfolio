@@ -32,8 +32,8 @@ function ProjectCard({project}) {
                 </div>
 
                 <div className='p-2 text-sm flex gap-2 float-right sm:float-none'>
-                    <a href={project.git} className='underline'><img className='h-6' src={githubIcon}/></a>
-                    <a href={project.web} className='underline'><img className='h-6' src={linkIcon}/></a>
+                    <a href={project.git} className='underline'><img className='h-6' alt='git' src={githubIcon}/></a>
+                    <a href={project.web} className='underline'><img className='h-6' alt='linked' src={linkIcon}/></a>
                 </div>
 
 
