@@ -23,7 +23,7 @@ function Home() {
                      <img 
                         src={sasha} 
                         alt='place-holder' 
-                        className='sm:w-fit md:w-[500px] rounded-full border-1 mt-[33%]                 bg-[rgb(225,74,56)]
+                        className='sm:w-fit md:w-[500px] rounded-full border-1 mt-[33%] bg-[rgb(225,74,56)]
                         '
 
                         

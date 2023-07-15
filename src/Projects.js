@@ -35,6 +35,15 @@ function Projects() {
             git: 'https://github.com/lvas248/exotic-farmers-market',
             web: 'https://exotic-farmers-market.onrender.com'
         },
+        {
+            id:4,
+            title: 'My Portfolio Website',
+            image: ffImage,
+            description: 'Welcome to my portfolio website, a place where you can explore my creative journey. Gain insight into my unique perspective by checking out the intersection of creativity and technical expertise showcased in my work.',
+            tech: ['React.js', 'TailswindCSS' ],
+            git: 'https://github.com/lvas248/my-portfolio',
+            web: 'luisvasquez.dev'            
+        }
     
     ]
     
@@ -48,7 +57,7 @@ function Projects() {
             className='min-h-screen px-5 pt-24'
             >
             
-            <h1 className='underline mb-5 font-bold text-right text-[rgb(225,74,56)]'>My Projects</h1>
+            <h1 className='underline mb-5font-bold text-right text-[rgb(225,74,56)]'>My Projects</h1>
             
             {renderProjectCards}
 
