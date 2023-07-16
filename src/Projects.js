@@ -22,7 +22,7 @@ function Projects() {
             title: 'BirdWatcher',
             image: bwImage,
             description: 'A diary app for bird enthusiasts to capture and document their bird sightings through photos and notes, creating a personalized collection of memorable encounters.',
-            tech: [ 'React.js', 'Rails', 'Reactstrap' ],
+            tech: [ 'React.js', 'Rails', 'Reactstrap', 'Cloudinary' ],
             git: 'https://github.com/lvas248/bird_watchr',
             web: 'https://bird-watcher.onrender.com'
         },
