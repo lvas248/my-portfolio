@@ -1,17 +1,17 @@
-import githubIcon from './logos/github-mark.png'
-import linkIcon from './logos/icons8-external-link-32.png'
+import githubIcon from './Assets/logos/github-mark.png'
+import linkIcon from './Assets/logos/icons8-external-link-32.png'
 
 
 function ProjectCard({project}) {
  
       
       const renderStackList = project.tech.map( t =>{
-        return <p className='border-2 border-[rgb(225,74,56)] font-bold ] w-[fit-content] text-[rgb(225,74,56)] text-sm p-[3px]'key={t}>{t}</p>
+        return <p className='border-2 border-[rgb(225,74,56)] font-bold w-[fit-content] text-[rgb(225,74,56)] text-sm p-[3px]'key={t}>{t}</p>
     })
 
     return ( 
         <div
-            className=' h-[fit-content] flex flex-col flex-col-reverse sm:flex-row border-bottom p-2 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105  duration-500
+            className=' h-[fit-content] flex flex-col-reverse sm:flex-row border-bottom p-2 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105  duration-500 hover:shadow-md group/card
             '
         >
 
@@ -32,8 +32,8 @@ function ProjectCard({project}) {
                 </div>
 
                 <div className='p-2 text-sm flex gap-2 float-right sm:float-none'>
-                    <a href={project.git} className='underline'><img className='h-6' alt='git' src={githubIcon}/></a>
-                    <a href={project.web} className='underline'><img className='h-6' alt='linked' src={linkIcon}/></a>
+                    <a href={project.git} className='hover:bg-[rgb(221,144,135)] rounded-full p-1 '><img className='h-6' alt='git' src={githubIcon}/></a>
+                    <a href={project.web} className='hover:bg-[rgb(221,144,135)] rounded-full p-1 '><img className='h-6' alt='linked' src={linkIcon}/></a>
                 </div>
 
 

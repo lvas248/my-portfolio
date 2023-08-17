@@ -1,6 +1,6 @@
 import { NavItem, NavLink } from 'reactstrap'
-import github from './logos/orange-github-mark.png'
-import linkedIn from './logos/LI-Logo.png'
+import github from './Assets/logos/orange-github-mark.png'
+import linkedIn from './Assets/logos/LI-Logo.png'
 
 function NavBarComp(){
 

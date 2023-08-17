@@ -1,4 +1,4 @@
-import sasha from './media/sasha2.png'
+import sasha from './Assets/media/sasha2.png'
 
 function Home() {
 
