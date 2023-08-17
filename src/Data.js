@@ -8,7 +8,7 @@ const projects = [
         id: 0,
         title: 'NYC Job Hunt',
         image: ffImage,
-        description: 'your one-stop app for finding and tracking available government jobs in New York City. Whether youre a seasoned professional or a recent graduate, this app will help you streamline your job hunt and keep track of the jobs you have already applied to.',
+        description: 'Your one-stop app for finding and tracking available government jobs in New York City. Whether youre a seasoned professional or a recent graduate, this app will help you streamline your job hunt and keep track of the jobs you have already applied to.',
         tech: ['React.js', 'Rails', 'Redux', 'TailwindCSS', 'Active Record' ],
         git: 'https://github.com/lvas248/jobs',
         web: 'https://jobs-taeb.onrender.com'            

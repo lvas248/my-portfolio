@@ -14,7 +14,7 @@ function NavBarComp(){
     return(
 
         <div>
-            <div className=' fade-in flex flex-row shadow-sm gap-x-5 place-content-end p-3 list-none fixed top-0 z-10 backdrop-blur-md rounded-[25px] text-white w-screen'>
+            <div className=' fade-in flex flex-row shadow-md gap-x-5 place-content-end p-3 list-none fixed top-0 z-10 backdrop-blur-md  text-white w-screen'>
 
                     <NavItem                    
                         onClick={()=>scrollToSection('home')} 
