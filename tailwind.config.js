@@ -55,6 +55,7 @@ module.exports = {
         '0%': { transform: 'scale(1)', opacity: '0'},
         '100%': { transform: 'scale(1.1)', opacity: '1'},
       },
+
     },
 
     animation: {

@@ -75,7 +75,7 @@ const skills = [
     {name: 'Redux.js', logo: redux},
     {name: null, logo: rails},
     {name: 'Ruby', logo: ruby},
-    {name: 'TailwindCSS', logo: tailwind},
+    {name: 'Tailwind', logo: tailwind},
     {name: null, logo: cloudinary},
     {name: null, logo: mapbox},
 
