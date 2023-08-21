@@ -16,3 +16,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer base{
+
+  .techBtn{
+    @apply border-[1px] w-fit p-2 border-[#114C3F] text-xs rounded-xl text-white bgOrange font-bold
+  }
+
+  .bgOrange{
+    @apply bg-[#E14A38]
+  }
+
+  .bgGreen{
+    @apply bg-[#114C3F]
+  }
+
+  .bgGreenOp{
+    @apply bg-[#114C3F] opacity-25
+  }
+
+  .textOrange{
+    @apply text-[#E14A38]
+  }
+
+  .textGreen{
+    @apply text-[#114C3F]
+  }
+
+}
