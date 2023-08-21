@@ -17,7 +17,7 @@ function NavBarComp(){
         <NavItem
             key={n}
             onClick={() => scrollToSection(n)}
-            className='bg-transparent font-bold textGreen px-2 py-1 rounded hover:anmiate-pulse'
+            className='bg-transparent font-bold textGreen px-2 py-1 rounded hover:anmiate-pulse mix-blend-difference'
             href='#'
         >
             <NavLink href='#'>{n}</NavLink>

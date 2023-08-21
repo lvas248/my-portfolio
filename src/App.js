@@ -6,14 +6,16 @@ import Contact from './Contact';
 
 import ProjectsContainer from './ProjectsContainer';
 import Skills from './Skills';
+import Banner from './Banner';
 
 function App() {
   return (
     <div className="App bg-[#f5f4ef] relative">
+      <Banner />
 
 
-      <NavBarComp />
-      <Home />   
+      <Home />  
+      <NavBarComp /> 
       {/* <ProjectsAlt /> */}
       {/* <Projects /> */}
       <Skills />

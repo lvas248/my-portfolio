@@ -70,14 +70,14 @@ const projects = [
 ]
 
 const skills = [
-    {name: 'React.js', logo: react},
-    {name: null, logo: javascript},
-    {name: 'Redux.js', logo: redux},
-    {name: null, logo: rails},
-    {name: 'Ruby', logo: ruby},
-    {name: 'Tailwind', logo: tailwind},
-    {name: null, logo: cloudinary},
-    {name: null, logo: mapbox},
+    {id:1, name: 'React.js', logo: react},
+    {id: 2, name: 'Javascript', logo: javascript},
+    {id: 3, name: 'Redux.js', logo: redux},
+    {id: 4, name: null, logo: rails},
+    {id: 5, name: 'Ruby', logo: ruby},
+    {id: 6, name: 'Tailwind', logo: tailwind},
+    {id: 7, name: null, logo: cloudinary},
+    {id: 8, name: null, logo: mapbox},
 
 
 ]
