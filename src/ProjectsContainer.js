@@ -28,8 +28,8 @@ function ProjectsContainer(){
         >
 
             <h1
-                className='mt-2 textGreen text-2xl underline font-bold pl-[10vw] text-left'
-            >Projects</h1>
+                className='mt-2 textGreen font-bold pl-[10vw] text-left'
+            >projects.</h1>
 
             <div
                 className='flex place-content-center gap-3'

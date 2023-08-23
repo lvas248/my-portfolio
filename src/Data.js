@@ -26,7 +26,7 @@ const projects = [
         description: 'Your one-stop app for finding and tracking available government jobs in New York City. Whether youre a seasoned professional or a recent graduate, this app will help you streamline your job hunt and keep track of the jobs you have already applied to.',
         techs: ['React.js', 'Rails', 'Redux', 'TailwindCSS', 'Active Record' ],
         git: 'https://github.com/lvas248/jobs',
-        demo: 'https://jobs-taeb.onrender.com'            
+        demo: 'https://jobs-b8os.onrender.com'            
     },
     {
         id:2,
@@ -70,14 +70,17 @@ const projects = [
 ]
 
 const skills = [
-    {id:1, name: 'React.js', logo: react},
-    {id: 2, name: 'Javascript', logo: javascript},
-    {id: 3, name: 'Redux.js', logo: redux},
-    {id: 4, name: null, logo: rails},
-    {id: 5, name: 'Ruby', logo: ruby},
-    {id: 6, name: 'Tailwind', logo: tailwind},
-    {id: 7, name: null, logo: cloudinary},
-    {id: 8, name: null, logo: mapbox},
+    {id:1, name: 'React.js', logo: react, type: 'framework'},
+    {id: 2, name: 'Javascript', logo: javascript, type:'language' },
+    {id: 3, name: 'Redux.js', logo: redux, type: 'framework'},
+    {id: 4, name: null, logo: rails, type: 'framework'},
+    {id: 5, name: 'Ruby', logo: ruby, type:'language'},
+    {id: 6, name: 'Tailwind', logo: tailwind, type: 'framework'},
+    {id: 7, name: null, logo: cloudinary, type:'other'},
+    {id: 8, name: null, logo: mapbox, type: 'other'},
+    {id: 9, name: 'HTML', logo:null, type: 'other'},
+    {id: 9, name: 'CSS', logo:null, type: 'other'},
+  
 
 
 ]

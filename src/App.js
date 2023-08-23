@@ -11,16 +11,14 @@ import Banner from './Banner';
 function App() {
   return (
     <div className="App bg-[#f5f4ef] relative">
-      <Banner />
+      {/* <Banner /> */}
 
 
       <Home />  
       <NavBarComp /> 
-      {/* <ProjectsAlt /> */}
-      {/* <Projects /> */}
       <Skills />
       <ProjectsContainer />
-      <About />
+      {/* <About /> */}
       <Contact />
     </div>
   );

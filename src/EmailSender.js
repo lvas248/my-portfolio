@@ -25,7 +25,6 @@ function EmailSender() {
             emailObj,
             process.env.REACT_APP_USER_ID
         ).then( res => {
-            console.log(res)
             if(res.status === 200){
                 setToggleNotify(true)
                 setEmailObj({
@@ -36,33 +35,40 @@ function EmailSender() {
                 })
                 setTimeout(()=>{
                     setToggleNotify(false)
-                },2000)
+                },3000)
             }
         })
     }
     
     return ( 
-    <form onSubmit={sendEmail} className='relative w-[67vw] max-w-[500px] m-auto grid place-content-center'>
+    <form onSubmit={sendEmail} className='relative w-[67vw] max-w-[500px] m-auto  bg-[#f5f4ef] p-6 rounded-3xl'>
+
+        <div
+            className={`bgOrange absolute top-0 left-0 h-full w-full rounded-3xl text-white grid place-content-center animate-fade-in ${ !toggleNotify && 'hidden'}`}
+        >
+            <h1>email has been sent.</h1>
+        </div>
         
-        <div className={`absolute h-full w-full top-0 left-0 backdrop-blur-3xl ${!toggleNotify && 'hidden'} animate-fade-in`}>
+        <h1 className='text-left text-xl font-bold textOrange'>GET IN TOUCH</h1>
+
+        <div className='flex flex-col p-1 text-left gap-2 textGreen'>
+
+                <label className='font-bold'>name</label>
+                <input className='p-1 pl-2 rounded-xl ' name='name' value={emailObj.name} onChange={updateEmailObj}/>
+
+                <label className='font-bold'>email: </label>
+                <input className=' p-1 pl-2 rounded-xl' name='email' value={emailObj.email} onChange={updateEmailObj}/>
+        
+                <label className='font-bold'>company </label>
+                <input className='p-1 pl-2 rounded-xl ' placeholder='optional' name='company' value={emailObj.company} onChange={updateEmailObj}/>
+
+                <label className='font-bold'>message </label>
+                <textarea className='col-span-2 p-1 pl-2 rounded-xl  h-[150px]' name='message' value={emailObj.message} onChange={updateEmailObj} />
+
+                <button className='border-2 w-full border-black p-1 rounded-2xl '>Send Email</button>
 
         </div>
 
-        <div className='grid grid-cols-3 gap-2 place-content-center p-1'>
-            <label className='col-span-1'>Name: </label>
-            <input className='col-span-2 p-1 rounded-xl text-center' name='name' value={emailObj.name} onChange={updateEmailObj}/>
-        
-            <label className='col-span-1'>Email Address: </label>
-            <input className='col-span-2 p-1 rounded-xl text-center' name='email' value={emailObj.email} onChange={updateEmailObj}/>
-            
-            <label className='col-span-1'>Company: </label>
-            <input className='col-span-2 p-1 rounded-xl text-center' placeholder='optional' name='company' value={emailObj.company} onChange={updateEmailObj}/>
-
-            <label className='col-span-1'>Message: </label>
-            <textarea className='col-span-2 p-1 rounded-xl text-left h-[150px]' name='message' value={emailObj.message} onChange={updateEmailObj} />
-        </div>
-
-        <button className='border-2 w-full border-black p-1 rounded-2xl '>Send Email</button>
 
     </form> );
 }

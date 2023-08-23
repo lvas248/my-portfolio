@@ -10,14 +10,14 @@ function NavBarComp(){
         section.scrollIntoView({ behavior: 'smooth' });
     }
 
-    const navItems = ['Home', 'Skills', 'Projects', 'About', 'Contact']
+    const navItems = ['Home', 'Skills', 'Projects', 'Contact']
 
     const renderNavItems = navItems.map( n => {
         return (                    
         <NavItem
             key={n}
             onClick={() => scrollToSection(n)}
-            className='bg-transparent font-bold textGreen px-2 py-1 rounded hover:anmiate-pulse mix-blend-difference'
+            className='bg-transparent font-bold textOrange px-2 py-1 rounded hover:anmiate-pulse mix-blend-difference'
             href='#'
         >
             <NavLink href='#'>{n}</NavLink>

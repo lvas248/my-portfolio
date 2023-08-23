@@ -3,12 +3,12 @@ import { skills } from './Data'
 function Skills() {
 
 
-    console.log(skills)
     const renderSkills = skills?.map( s =>{
         return (
              <div 
                 key={s.id}
                 className={`
+                    drop-shadow-xl
                     grid place-content-center
                     text-white
                     bgGreen
@@ -26,10 +26,10 @@ function Skills() {
                         key={s.name}
                         src={s.logo}
                         alt={s.name}
-                        className='h-[4vh] m-auto'
+                        className='h-[40px] m-auto'
                     />
 
-                    { s.name && <h1>{s.name}</h1> }
+                    { s.name && <h1 className='text-[30px]'>{s.name}</h1> }
                 
 
             </div>
@@ -38,15 +38,25 @@ function Skills() {
 
     return ( 
     <div id='skills'
-        className='grid h-min pt-[10vh]'
+        className='min-h-screen pt-[10vh] sm:pt-[10vh] grid gap-6 relative'
+
     >
-        <h1 className=''>Skills</h1>
+        <div className='mt-2 pl-[10vw] flex flex-row sticky'>
+            <h1
+                className='text-left textOrange'
+            >skills.</h1>
+            <h1
+                className='text-left textGreen'
+            >languages.</h1>
+            <h1
+                className='text-left text-stone-300'
+            >frameworks.</h1>            
+        </div>
 
 
         <div className='
             flex flex-wrap            
             gap-5
-            
             sm:w-[67vw] 
             place-content-center 
             m-auto'>
