@@ -10,7 +10,7 @@ function Home() {
     return ( 
         <div 
             id='home'
-            className='h-screen flex px-3 relative'
+            className='h-screen flex px-3 relative max-w-[1050px] m-auto'
             >
 
             <div

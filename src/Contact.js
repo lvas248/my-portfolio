@@ -5,16 +5,22 @@ function Contact() {
     return ( 
         <div 
             id='contact'
-            // className='h-screen pt-20 bgGreen'
-            className='min-h-screen pt-[8vh] sm:pt-[10vh] flex flex-col gap-6 bgGreen'
-
+            className='bgGreen'
             >
 
-            <h1
-                className='mt-2 font-bold pl-[10vw] text-left text-white'
-            >contact.</h1>
+            <div className='min-h-screen max-w-[1050px] m-auto pt-[8vh] sm:pt-[10vh] bgGreen'>
+                
+                <h1
+                    className='mb-5 font-bold pl-[10vw] text-left text-white'
+                >contact.</h1>
 
-            <EmailSender />
+                <div className='mb-5 m-auto text-xs sm:text-sm text-center font-bold text-white w-[80vw] sm:w-[67vw] max-w-[500px]'>
+                    <p>Have a Question or Message? Feel free to reach out!</p>
+                </div>
+
+                <EmailSender />
+
+            </div>
             
         </div> 
     );

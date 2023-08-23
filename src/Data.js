@@ -62,7 +62,7 @@ const projects = [
         title: 'My Portfolio Website',
         image: portfolioImage,
         image2: portfolioImage2,
-        description: 'Welcome to my portfolio website, a place where you can explore my creative journey. Gain insight into my unique perspective by checking out the intersection of creativity and technical expertise showcased in my work.',
+        description: 'A place where you can explore my creative journey. Gain insight into my unique perspective by checking out the intersection of creativity and technical expertise showcased in my work.',
         techs: ['React.js', 'TailswindCSS' ],
         git: 'https://github.com/lvas248/my-portfolio',
         demo: 'luisvasquez.dev'            
@@ -70,16 +70,16 @@ const projects = [
 ]
 
 const skills = [
-    {id:1, name: 'React.js', logo: react, type: 'framework'},
-    {id: 2, name: 'Javascript', logo: javascript, type:'language' },
-    {id: 3, name: 'Redux.js', logo: redux, type: 'framework'},
-    {id: 4, name: null, logo: rails, type: 'framework'},
-    {id: 5, name: 'Ruby', logo: ruby, type:'language'},
-    {id: 6, name: 'Tailwind', logo: tailwind, type: 'framework'},
-    {id: 7, name: null, logo: cloudinary, type:'other'},
-    {id: 8, name: null, logo: mapbox, type: 'other'},
-    {id: 9, name: 'HTML', logo:null, type: 'other'},
-    {id: 9, name: 'CSS', logo:null, type: 'other'},
+    {id: 11, name: 'React.js', logo: react, type: 'framework'},
+    {id: 12, name: 'Javascript', logo: javascript, type:'language' },
+    {id: 13, name: 'Redux.js', logo: redux, type: 'framework'},
+    {id: 14, name: null, logo: rails, type: 'framework'},
+    {id: 15, name: 'Ruby', logo: ruby, type:'language'},
+    {id: 16, name: 'Tailwind', logo: tailwind, type: 'framework'},
+    {id: 17, name: null, logo: cloudinary, type:'other'},
+    {id: 18, name: null, logo: mapbox, type: 'other'},
+    {id: 19, name: 'HTML', logo:null, type: 'other'},
+    {id: 20, name: 'CSS', logo:null, type: 'other'},
   
 
 

@@ -13,7 +13,7 @@ function Skills() {
                     text-white
                     bgGreen
                     rounded-3xl
-                    h-[18vh] w-[18vh]
+                    h-[15vh] w-[15vh]
                     sm:h-[20vh] sm:w-[20vh]
                     m-auto
                     shadow-2xl
@@ -26,10 +26,10 @@ function Skills() {
                         key={s.name}
                         src={s.logo}
                         alt={s.name}
-                        className='h-[40px] m-auto'
+                        className='h-[25px] m-auto'
                     />
 
-                    { s.name && <h1 className='text-[30px]'>{s.name}</h1> }
+                    { s.name && <h1 className='text-[20px]'>{s.name}</h1> }
                 
 
             </div>
@@ -38,10 +38,10 @@ function Skills() {
 
     return ( 
     <div id='skills'
-        className='min-h-screen pt-[10vh] sm:pt-[10vh] grid gap-6 relative'
+        className='min-h-screen  max-w-[1050px] m-auto pt-[10vh] sm:pt-[10vh] grid relative '
 
     >
-        <div className='mt-2 pl-[10vw] flex flex-row sticky'>
+        <div className='pl-[10vw] flex'>
             <h1
                 className='text-left textOrange'
             >skills.</h1>
@@ -53,13 +53,17 @@ function Skills() {
             >frameworks.</h1>            
         </div>
 
+        <div className='m-auto text-xs sm:text-sm text-center font-bold textGreen w-[80vw] sm:w-[67vw]'>
+            <p>Take a peek into the machinery propelling my web development. Encounter tools for dynamic interfaces, data finesse, and more. Uncover the gears that power the experience.</p>
+        </div>
+
 
         <div className='
             flex flex-wrap            
-            gap-5
-            sm:w-[67vw] 
-            place-content-center 
-            m-auto'>
+            m-auto
+            gap-3
+            sm:w-[67vw] p-[2vh]
+            '>
 
             {renderSkills}
         </div>

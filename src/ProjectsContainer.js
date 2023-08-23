@@ -6,7 +6,7 @@ import ProjectDetailCard from './ProjectDetailCard';
 
 function ProjectsContainer(){
 
-    const [ selectedProjectId, setSelectedProjectId ] = useState(null)
+    const [ selectedProjectId, setSelectedProjectId ] = useState(1)
 
     function updateSelectedProjectId(id){
         setSelectedProjectId(id)
@@ -24,7 +24,7 @@ function ProjectsContainer(){
     return ( 
     
         <div id='projects'
-            className='min-h-screen pt-[8vh] sm:pt-[10vh] flex flex-col gap-6'
+            className='min-h-screen  max-w-[1050px] m-auto pt-[8vh] sm:pt-[10vh] flex flex-col gap-6'
         >
 
             <h1
