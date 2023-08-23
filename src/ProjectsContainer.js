@@ -24,7 +24,7 @@ function ProjectsContainer(){
     return ( 
     
         <div id='projects'
-            className='min-h-screen  max-w-[1050px] m-auto pt-[8vh] sm:pt-[10vh] flex flex-col gap-6'
+            className='min-h-screen max-w-[1050px] m-auto pt-[8vh] pb-[2vh] sm:pt-[6vh] sm:pb-[2vh] flex flex-col gap-6'
         >
 
             <h1
