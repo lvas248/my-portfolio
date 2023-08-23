@@ -33,7 +33,6 @@ function ProjectsContainer(){
 
             <div
                 className='flex place-content-center gap-3'
-                // className='grid grid-cols-3'
             >
                 {renderProjects}
             </div>

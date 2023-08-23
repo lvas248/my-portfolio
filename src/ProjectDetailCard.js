@@ -36,24 +36,24 @@ function ProjectDetailCard({project, clearSelectedProject}){
         >
 
             <div
-                className='grid lg:flex relative z-10'
+                className='grid lg:flex relative'
             >
                 <button
                     onClick={clearSelectedProject}
-                    className='absolute -top-2 -right-2 z-10'
+                    className='absolute -top-2 -right-2'
                 >𝐗</button>
 
                 <img
                     id='laptop_image'
                     src={project?.image2}
                     alt='project on laptop'
-                    className='h-[25vh] z-10 m-auto'
+                    className='h-[25vh] m-auto'
                 />
 
 
                 <div 
                     id='project_info'
-                    className='place-content-center z-10'
+                    className='place-content-center'
                 >
                     <h2
                         className='font-bold text3-xl textGreen'
@@ -67,7 +67,7 @@ function ProjectDetailCard({project, clearSelectedProject}){
                         {renderTechs}
                     </div>
 
-                    <div className='flex float-right'>
+                    <div className='flex place-content-end'>
                         <a href={project?.git}>
                             <img
                                 src={git}

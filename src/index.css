@@ -34,6 +34,13 @@ code {
   .bgGreenOp{
     @apply bg-[#114C3F] opacity-25
   }
+  .bgStone{
+    @apply bg-stone-300
+  }
+
+  .textStone{
+    @apply text-stone-300
+  }
 
   .textOrange{
     @apply text-[#E14A38]
