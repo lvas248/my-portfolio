@@ -32,7 +32,7 @@ function ProjectsContainer(){
             >projects.</h1>
 
             <div
-                className='flex place-content-center gap-3'
+                className='flex place-content-center gap-2'
             >
                 {renderProjects}
             </div>

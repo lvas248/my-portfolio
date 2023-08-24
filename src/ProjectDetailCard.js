@@ -31,7 +31,7 @@ function ProjectDetailCard({project, clearSelectedProject}){
                     relative m-2 sm:m-auto 
                     p-[3vh] rounded-3xl bg-stone-300
                     animate-fade-in-slow
-                    ${animateOut ? 'opacity-5 animate-glide-out-right-fast' : 'animate-glide-in-left-fast'}
+                    ${animateOut ? 'animate-glide-out-right-fast' : 'animate-glide-in-left-fast'}
                 `}
         >
 

@@ -13,7 +13,7 @@ function ProjectCell({project, updateSelectedProjectId, selectedProjectId}){
             <img
                 src={project.image}
                 alt='mobile project'
-                className={`h-[15vh] sm:h-[25vh] hover:cursor-pointer ${isSelected && 'scale-120'}`}
+                className={`hover:cursor-pointer ${isSelected && 'scale-120'}`}
                 onClick={()=>updateSelectedProjectId(project.id)}
             />
             { !selectedProjectId && <p className='textGreen text-xs text-center font-bold m-auto '>{project?.title}</p>}

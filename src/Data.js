@@ -15,6 +15,8 @@ import redux from './Assets/update_logos/redux/redux_white_400.png'
 import tailwind from './Assets/update_logos/tailwind/tailwindcss_white_400.png'
 import cloudinary from './Assets/update_logos/cloudinary/cloudinary_white_400.png'
 import mapbox from './Assets/update_logos/mapbox/mapbox_white_400.png'
+import css from './Assets/update_logos/CSS.png'
+import html from './Assets/update_logos/html.png'
 
 const projects = [
 
@@ -78,8 +80,8 @@ const skills = [
     {id: 16, name: 'Tailwind', logo: tailwind, type: 'framework'},
     {id: 17, name: null, logo: cloudinary, type:'other'},
     {id: 18, name: null, logo: mapbox, type: 'other'},
-    {id: 19, name: 'HTML', logo:null, type: 'other'},
-    {id: 20, name: 'CSS', logo:null, type: 'other'},
+    {id: 19, name: 'HTML', logo:html, type: 'other'},
+    {id: 20, name: 'CSS', logo:css, type: 'other'},
   
 
 

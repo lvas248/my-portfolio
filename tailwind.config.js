@@ -53,7 +53,7 @@ module.exports = {
       },
       scaleUp: {
         '0%': { transform: 'scale(1)', opacity: '0'},
-        '100%': { transform: 'scale(1.1)', opacity: '1'},
+        '100%': { transform: 'scale(1.2)', opacity: '1'},
       },
 
     },
