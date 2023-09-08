@@ -1,5 +1,5 @@
 
-import { projects } from './Data'
+import { projects } from '../../Data'
 import ProjectCell from "./ProjectCell";
 import { useState } from 'react'
 import ProjectDetailCard from './ProjectDetailCard';

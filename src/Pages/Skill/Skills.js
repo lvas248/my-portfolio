@@ -1,4 +1,4 @@
-import { skills } from './Data'
+import { skills } from '../../Data'
 
 function Skills() {
 

@@ -1,8 +1,8 @@
-import NavBarComp from './NavBarComp';
-import Home from './Home';
-import Contact from './Contact';
-import ProjectsContainer from './ProjectsContainer';
-import Skills from './Skills';
+import NavBarComp from './Layout/NavBarComp';
+import Home from './Pages/Home';
+import Contact from './Pages/Contact/Contact';
+import ProjectsContainer from './Pages/Project/ProjectsContainer';
+import Skills from './Pages/Skill/Skills';
 
 function App() {
   return (

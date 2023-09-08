@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import TechItem from "./TechItem";
-import git from './Assets/logos/orange-github-mark.png'
-import demo from './Assets/logos/orange-icons8-external-link-32.png'
+import git from '../../Assets/logos/orange-github-mark.png'
+import demo from '../../Assets/logos/orange-icons8-external-link-32.png'
 
 
 function ProjectDetailCard({project, clearSelectedProject}){

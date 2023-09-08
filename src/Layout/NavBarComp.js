@@ -1,6 +1,6 @@
 import { NavItem, NavLink } from 'reactstrap'
-import github from './Assets/logos/orange-github-mark.png'
-import linkedIn from './Assets/logos/LI-Logo.png'
+import github from '../Assets/logos/orange-github-mark.png'
+import linkedIn from '../Assets/logos/LI-Logo.png'
 import { Squash as Hamburger } from 'hamburger-react'
 import { useState } from 'react'
 
@@ -30,7 +30,6 @@ function NavBarComp(){
                         bg-transparent font-bold rounded hover:anmiate-pulse 
                         w-full h-[10vh] grid place-content-center
                         sm:w-fit sm:text-lg 
-                        
                         '
                     href='#'
                 >
@@ -63,13 +62,7 @@ function NavBarComp(){
                     `}>
                     {renderNavItems}
                 </div>
-                {/* 
-                    screen width > sm => flex flex-row
-                    screen width < sm => grid flex
-                 */}
-
-
-
+    
             </div>
 
             

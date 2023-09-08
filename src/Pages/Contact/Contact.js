@@ -1,5 +1,5 @@
 
-import EmailSender from "./EmailSender";
+import EmailSender from "../../EmailSender";
 
 function Contact() {
     return ( 
