@@ -29,7 +29,7 @@ function ProjectDetailCard({project, clearSelectedProject}){
         <div
             className={`
                     relative m-2 sm:m-auto 
-                    p-[3vh] bg-stone-300
+                    p-[3vh] bgGreen text-white
                     animate-fade-in-slow
                     rounded-3xl border-black border-[6px]
                     ${animateOut ? 'animate-glide-out-right-fast' : 'animate-glide-in-left-fast'}
@@ -41,7 +41,7 @@ function ProjectDetailCard({project, clearSelectedProject}){
             >
                 <button
                     onClick={clearSelectedProject}
-                    className='absolute -top-2 -right-2'
+                    className='absolute -top-2 -right-2 textOrange'
                 >𝐗</button>
 
                 <img
@@ -57,10 +57,10 @@ function ProjectDetailCard({project, clearSelectedProject}){
                     className='place-content-center'
                 >
                     <h2
-                        className='font-bold text3-xl textGreen'
+                        className='font-bold text3-xl '
                     >{project?.title}</h2>
 
-                    <p className='max-w-[350px] text-xs textGreen font-bold'>{project?.description}</p>
+                    <p className='max-w-[350px] text-xs  font-bold'>{project?.description}</p>
 
                     <div
                         className='flex flex-wrap'

@@ -28,13 +28,11 @@ function ProjectsContainer(){
                 min-h-[100vh] m-auto 
                 pt-[8vh] sm:pt-[6vh] 
                 flex flex-col
-               
-        
                 '
         >
 
             <h1
-                className='mt-2 text-white font-bold pl-[10vw] text-left'
+                className='mt-2 textGreen font-bold pl-[10vw] text-left'
             >projects.</h1>
 
             <div

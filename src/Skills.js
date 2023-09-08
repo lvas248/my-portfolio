@@ -11,11 +11,11 @@ function Skills() {
                 <div className='
                     h-[15vh] w-[15vh]
                     sm:h-[20vh] sm:w-[20vh]
-                    border-[6px] border-black
+                    border-[6px] border-black 
                     rounded-3xl
                     absolute
-                    top-5 right-5
-                    bg-white
+                    top-4 right-4
+                    bg-black
                 '>
 
                 </div>
@@ -51,7 +51,7 @@ function Skills() {
 
     return ( 
     <div id='skills'
-        className='min-h-screen  border-black border-x-[6px] border-b-[6px] rounded-b-3xl max-w-[1050px] m-auto pt-[10vh] sm:pt-[10vh] grid relative bg-[#f5f4ef] '
+        className='min-h-screen max-w-[1050px] m-auto pt-[10vh] sm:pt-[10vh] grid relative '
 
     >
         <div className='pl-[10vw] flex'>
@@ -62,7 +62,7 @@ function Skills() {
                 className='text-left textGreen'
             >languages.</h1>
             <h1
-                className='text-left text-stone-300'
+                className='text-left text-white'
             >frameworks.</h1>            
         </div>
 

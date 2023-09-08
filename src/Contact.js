@@ -5,13 +5,13 @@ function Contact() {
     return ( 
         <div 
             id='contact'
-            className='bg-[#f5f4ef] border-black border-[6px] min-h-[100vh] rounded-3xl'
+            className='min-h-[100vh]'
             >
 
             <div className='min-h-[95vh] max-w-[1050px] m-auto pt-[8vh] sm:pt-[10vh]'>
                 
                 <h1
-                    className='mb-5 font-bold pl-[10vw] text-left textGreen'
+                    className='mb-5 font-bold pl-[10vw] text-left textGreen '
                 >contact.</h1>
 
                 <div className='mb-5 m-auto text-xs sm:text-sm text-center font-bold textGreen w-[80vw] sm:w-[67vw] max-w-[500px]'>

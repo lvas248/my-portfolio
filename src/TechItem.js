@@ -1,7 +1,7 @@
 function TechItem({tech}) {
     return ( 
             <p
-                className='techBtn h-fit'
+                className='techBtn h-fit bgGreen'
             >{tech}</p>
     );
 }

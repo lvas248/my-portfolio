@@ -6,10 +6,10 @@ import Skills from './Skills';
 
 function App() {
   return (
-    <div className="App bgGreen overflow-hidden">
+    <div className="App overflow-hidden bg-stone-300">
 
       <div
-        className='max-w-[1050px] relative m-auto px-2'
+        className='max-w-[1050px] relative m-auto '
       >
         <Home /> 
         <NavBarComp /> 
