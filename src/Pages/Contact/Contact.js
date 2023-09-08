@@ -1,11 +1,11 @@
 
-import EmailSender from "../../EmailSender";
+import EmailSender from "./EmailSender";
 
 function Contact() {
     return ( 
         <div 
             id='contact'
-            className='min-h-[100vh]'
+            className='min-h-[80vh]'
             >
 
             <div className='min-h-[95vh] max-w-[1050px] m-auto pt-[8vh] sm:pt-[10vh]'>

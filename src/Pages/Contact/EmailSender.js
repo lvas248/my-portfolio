@@ -67,7 +67,7 @@ function EmailSender() {
                         <label className='font-bold'>message </label>
                         <textarea className='col-span-2 p-1 pl-2 rounded-xl h-[150px] bg-stone-200' required name='message' value={emailObj.message} onChange={updateEmailObj} />
 
-                        <button className='border-2 w-full border-black p-1 rounded-2xl bgOrange text-stone-200 font-bold'>Send Email</button>
+                        <button className='border-2 w-full border-black p-2 sm:p-1 rounded-2xl bgOrange text-stone-200 font-bold'>Send Email</button>
 
                 </div>
 

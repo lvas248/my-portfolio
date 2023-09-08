@@ -26,7 +26,7 @@ function ProjectsContainer(){
         <div id='projects'
             className='
                 min-h-[100vh] m-auto 
-                pt-[8vh] sm:pt-[6vh] 
+                pt-[15vh] sm:pt-[15vh] 
                 flex flex-col
                 '
         >

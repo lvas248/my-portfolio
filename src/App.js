@@ -3,6 +3,8 @@ import Home from './Pages/Home';
 import Contact from './Pages/Contact/Contact';
 import ProjectsContainer from './Pages/Project/ProjectsContainer';
 import Skills from './Pages/Skill/Skills';
+import BottomBanner from './Layout/BottomBanner';
+import FloatingActionButton from './Layout/FloatingActionButton';
 
 function App() {
   return (
@@ -11,11 +13,15 @@ function App() {
       <div
         className='max-w-[1050px] relative m-auto '
       >
+        <NavBarComp />         
+        
         <Home /> 
-        <NavBarComp /> 
         <Skills />
         <ProjectsContainer />
-        <Contact />        
+        <Contact />    
+        
+        <FloatingActionButton />
+        <BottomBanner />    
       </div>
 
     </div>

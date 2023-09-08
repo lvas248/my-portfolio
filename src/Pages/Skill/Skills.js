@@ -51,7 +51,7 @@ function Skills() {
 
     return ( 
     <div id='skills'
-        className='min-h-screen max-w-[1050px] m-auto pt-[10vh] sm:pt-[10vh] grid relative '
+        className='min-h-screen max-w-[1050px] m-auto pt-[15vh] grid relative '
 
     >
         <div className='pl-[10vw] flex'>
