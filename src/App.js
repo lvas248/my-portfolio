@@ -1,4 +1,3 @@
-import './App.css';
 import NavBarComp from './NavBarComp';
 import Home from './Home';
 import Contact from './Contact';
@@ -7,14 +6,18 @@ import Skills from './Skills';
 
 function App() {
   return (
-    <div className="App bg-[#f5f4ef] relative ">
+    <div className="App bgGreen overflow-hidden">
 
+      <div
+        className='max-w-[1050px] relative m-auto px-2'
+      >
+        <Home /> 
+        <NavBarComp /> 
+        <Skills />
+        <ProjectsContainer />
+        <Contact />        
+      </div>
 
-      <Home />  
-      <NavBarComp /> 
-      <Skills />
-      <ProjectsContainer />
-      <Contact />
     </div>
   );
 }

@@ -16,7 +16,7 @@ function ProjectCell({project, updateSelectedProjectId, selectedProjectId}){
                 className={`hover:cursor-pointer ${isSelected && 'scale-120'}`}
                 onClick={()=>updateSelectedProjectId(project.id)}
             />
-            { !selectedProjectId && <p className='textGreen text-xs text-center font-bold m-auto '>{project?.title}</p>}
+            { !selectedProjectId && <p className='textGreen text-[8px] sm:text-xs text-center font-bold m-auto '>{project?.title}</p>}
 
 
         </div> 

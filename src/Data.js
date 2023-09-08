@@ -25,7 +25,7 @@ const projects = [
         title: 'NYC Job Hunt',
         image: jobImage,
         image2: jobImage2,
-        description: 'Your one-stop app for finding and tracking available government jobs in New York City. Whether youre a seasoned professional or a recent graduate, this app will help you streamline your job hunt and keep track of the jobs you have already applied to.',
+        description: 'React-based application offering users a streamlined platform to explore, save, and manage NYC government job listings.',
         techs: ['React.js', 'Rails', 'Redux', 'TailwindCSS', 'Active Record' ],
         git: 'https://github.com/lvas248/jobs',
         demo: 'https://jobs-b8os.onrender.com'            
@@ -65,7 +65,7 @@ const projects = [
         image: portfolioImage,
         image2: portfolioImage2,
         description: 'A place where you can explore my creative journey. Gain insight into my unique perspective by checking out the intersection of creativity and technical expertise showcased in my work.',
-        techs: ['React.js', 'TailswindCSS' ],
+        techs: ['React.js', 'TailswindCSS', 'EmailJS' ],
         git: 'https://github.com/lvas248/my-portfolio',
         demo: 'luisvasquez.dev'            
     }

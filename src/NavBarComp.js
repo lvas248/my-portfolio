@@ -27,13 +27,13 @@ function NavBarComp(){
     return(
 
         <div>
-            <div className=' fade-in flex flex-row shadow-md gap-x-5 place-content-end p-3 list-none fixed top-0 z-10 backdrop-blur-md  text-white w-screen'>
+            <div className=' fade-in flex flex-row shadow-md gap-x-5 place-content-end p-3 list-none fixed top-0 z-10 backdrop-blur-md  text-white w-full max-w-[1050px]'>
                 {renderNavItems}
             </div>
 
             <div className='
                 z-10 fixed bottom-0
-                w-full backdrop-blur-md 
+                backdrop-blur-md 
                 h-[4vh]
                 px-4
                 '>

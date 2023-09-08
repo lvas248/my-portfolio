@@ -24,20 +24,29 @@ function ProjectsContainer(){
     return ( 
     
         <div id='projects'
-            className='min-h-screen max-w-[1050px] m-auto pt-[8vh] pb-[2vh] sm:pt-[6vh] sm:pb-[2vh] flex flex-col gap-6'
+            className='
+                min-h-[100vh] m-auto 
+                pt-[8vh] sm:pt-[6vh] 
+                flex flex-col
+               
+        
+                '
         >
 
             <h1
-                className='mt-2 textGreen font-bold pl-[10vw] text-left'
+                className='mt-2 text-white font-bold pl-[10vw] text-left'
             >projects.</h1>
 
             <div
-                className='flex place-content-center gap-2'
+                className='flex '
             >
                 {renderProjects}
             </div>
 
-            <div className='flex place-content-center relative'>
+            <div className='
+                flex place-content-center relative 
+                
+            '>
                 { selectedProject && <ProjectDetailCard project={selectedProject} clearSelectedProject={clearSelectedProject} /> }
             </div>
 
