@@ -24,7 +24,7 @@ module.exports = {
         '100%': { transform: 'translateX(-150%)' },
       },
       fadeIn: {
-        '0%': { opacity: 0.2 },
+        '0%': { opacity: 0 },
         '100%': { opacity: 1 },
       },
       fadeOut: {
@@ -56,6 +56,7 @@ module.exports = {
         '100%': { transform: 'scale(1.2)', opacity: '1'},
       },
 
+
     },
 
     animation: {
@@ -71,7 +72,7 @@ module.exports = {
       'fade-in': 'fadeIn 1s forwards',
       'fade-out': 'fadeOut 0.75s forwards',
 
-      'glide-in-top': 'glideInTop 01s ease-out',
+      'glide-in-top': 'glideInTop 300ms ease-out',
       'glide-in-bottom': 'glideInBottom 01s ease-out',
       'glide-in-bottom-fast': 'glideInBottom 0.5s ease-out',
 
@@ -80,7 +81,8 @@ module.exports = {
       'glide-from-second-position': 'glideIntoTwPosition 1s forwards',
 
       'select': 'scaleUp 0.75s forwards',
-      'fade-in-slow':'fadeIn 3s ease-out'
+      'fade-in-slow':'fadeIn 3s ease-out',
+
       
     },
   },

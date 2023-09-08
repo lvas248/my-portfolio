@@ -7,13 +7,14 @@ import BottomBanner from './Layout/BottomBanner';
 import FloatingActionButton from './Layout/FloatingActionButton';
 
 function App() {
+
   return (
     <div className="App overflow-hidden bg-stone-300">
 
       <div
         className='max-w-[1050px] relative m-auto '
       >
-        <NavBarComp />         
+        <NavBarComp />    
         
         <Home /> 
         <Skills />
