@@ -8,7 +8,7 @@ function Contact() {
             className='min-h-[80vh]'
             >
 
-            <div className='min-h-[95vh] max-w-[1050px] m-auto pt-[10vh]'>
+            <div className='min-h-[95vh] max-w-[1050px] m-auto pt-[12vh]'>
                 
                 <h1
                     className='mb-3 font-bold pl-[10vw] text-left textGreen '

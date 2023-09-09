@@ -22,7 +22,7 @@ function Home() {
             </div>
 
             <div
-                className='h-[50vh] rounded-3xl place-self-end border-black border-[6px] border-x-[6px] relative grid bgGreen p-4 
+                className='h-[35vh] rounded-3xl place-self-end border-black border-[6px] border-x-[6px] relative grid bgGreen p-4 
                 '
             >
                 <img 
