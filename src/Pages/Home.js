@@ -22,15 +22,15 @@ function Home() {
             </div>
 
             <div
-                className='h-[35vh] rounded-3xl place-self-end border-black border-[6px] border-x-[6px] relative grid bgGreen p-4 
+                className='h-[40vh] rounded-3xl place-self-end border-black border-[6px] border-x-[6px] relative grid bgGreen p-4 
                 '
             >
                 <img 
                     src={sasha} 
                     alt='place-holder' 
                     className='
-                        animate-fade-in-fast
-                        h-[60vw] sm:h-[425px] bgOrange pt-4 px-4 rounded-t-full border-black border-[6px]
+                        animate-scale-in
+                        h-[60vw] sm:max-h-[370px] bgOrange pt-4 px-4 rounded-t-full border-black border-[6px]
                         place-self-center
                     '
                 />

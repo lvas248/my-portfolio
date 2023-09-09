@@ -71,13 +71,17 @@ module.exports = {
         '24%':{ transform: 'rotate(-0)'},
         '100%': { transform: 'rotate(0)'},
       },
+      scaleIn: {
+        '0%': { transform: 'scale(0)'},
+        '100%': { transform: 'scale(1)'},
+      },
 
 
     },
 
     animation: {
       'glide-in-right': 'glideInRight 01s ease-out',
-      'glide-in-left': 'glideInLeft 0.3s ease-out',
+      'glide-in-left': 'glideInLeft 0.7s ease-out',
 
       'glide-out-right-fast': 'glideOutRight 0.3s ease-out',
       'glide-out-left-fast': 'glideOutLeft 0.3s ease-in',
@@ -103,7 +107,9 @@ module.exports = {
 
       'rotate-in':'rotateIn 0.5s ease-out',
 
-      'wiggle-it':'wiggle 1s infinite'
+      'wiggle-it':'wiggle 1s infinite',
+
+      'scale-in':'scaleIn 0.70s ease-out'
 
       
     },
