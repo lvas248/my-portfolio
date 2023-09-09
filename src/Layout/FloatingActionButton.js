@@ -41,6 +41,7 @@ function FloatingActionButton() {
             <img 
                 className={`                        
                 object-cover h-[30px] w-[30px] align-self-center ml-3
+                ${isOpen && 'animate-rotate-in'}
                 ${!isOpen && 'hidden'}
                 `}
                 onClick={toggle}

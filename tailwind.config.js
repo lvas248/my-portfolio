@@ -55,6 +55,10 @@ module.exports = {
         '0%': { transform: 'scale(1)', opacity: '0'},
         '100%': { transform: 'scale(1.2)', opacity: '1'},
       },
+      rotateIn:{
+        '0%': { transform: 'rotate(0)'},
+        '100%':{ transform: 'rotate(180deg)'}
+      }
 
 
     },
@@ -84,6 +88,8 @@ module.exports = {
 
       'select': 'scaleUp 0.75s forwards',
       'fade-in-slow':'fadeIn 3s ease-out',
+
+      'rotate-in':'rotateIn 0.5s ease-out'
 
       
     },
