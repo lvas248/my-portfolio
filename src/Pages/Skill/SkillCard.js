@@ -15,7 +15,9 @@ function SkillCard({skill}){
     })
 
     return (
-        <div className='relative shadow-2xl transition-all duration-300 sm:hover:scale-105'>
+        <div className='relative shadow-2xl animate-wiggle-it 
+        transition-all duration-300 sm:hover:scale-105
+        '>
                 
             <div className='
                 h-[15vh] w-[15vh]

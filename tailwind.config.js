@@ -58,7 +58,19 @@ module.exports = {
       rotateIn:{
         '0%': { transform: 'rotate(0)'},
         '100%':{ transform: 'rotate(180deg)'}
-      }
+      },
+      wiggle:{
+        '0%': { transform: 'rotate(0)'},
+        '3%':{ transform: 'rotate(2deg)'},
+        '6%':{ transform: 'rotate(0deg)'},
+        '9%':{ transform: 'rotate(-2deg)'},
+        '12%': { transform: 'rotate(0)'},
+        '15%':{ transform: 'rotate(2deg)'},
+        '18%':{ transform: 'rotate(0deg)'},
+        '21%':{ transform: 'rotate(-2deg)'},
+        '24%':{ transform: 'rotate(-0)'},
+        '100%': { transform: 'rotate(0)'},
+      },
 
 
     },
@@ -89,7 +101,9 @@ module.exports = {
       'select': 'scaleUp 0.75s forwards',
       'fade-in-slow':'fadeIn 3s ease-out',
 
-      'rotate-in':'rotateIn 0.5s ease-out'
+      'rotate-in':'rotateIn 0.5s ease-out',
+
+      'wiggle-it':'wiggle 1s infinite'
 
       
     },
