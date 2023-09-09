@@ -29,6 +29,7 @@ function Home() {
                     src={sasha} 
                     alt='place-holder' 
                     className='
+                        animate-fade-in-fast
                         h-[60vw] sm:h-[425px] bgOrange pt-4 px-4 rounded-t-full border-black border-[6px]
                         place-self-center
                     '

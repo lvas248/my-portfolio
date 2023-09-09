@@ -61,7 +61,7 @@ function NavBarComp(){
                         sm:gap-5
                         flex flex-col place-content-center text-center h-[50vh] text-3xl
                         ${!isOpen && 'hidden'}
-                        ${isOpen && 'animate-fade-in'}
+                        ${isOpen && 'animate-fade-in-fast'}
                         
                     `}>
                     {renderNavItems}

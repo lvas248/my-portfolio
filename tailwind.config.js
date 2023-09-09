@@ -32,7 +32,7 @@ module.exports = {
         '100%': { opacity: 0.2 },
       },
       glideInTop: {
-        '0%': { transform: 'translateY(-100%)'},
+        '0%': { transform: 'translateY(-1000%)'},
         '100%': { transform: 'translateX(0)'},
       },      
       glideInBottom: {
@@ -61,7 +61,7 @@ module.exports = {
 
     animation: {
       'glide-in-right': 'glideInRight 01s ease-out',
-      'glide-in-left': 'glideInLeft 01s ease-out',
+      'glide-in-left': 'glideInLeft 0.3s ease-out',
 
       'glide-out-right-fast': 'glideOutRight 0.3s ease-out',
       'glide-out-left-fast': 'glideOutLeft 0.3s ease-in',
@@ -69,10 +69,12 @@ module.exports = {
       'glide-in-right-fast': 'glideInRight 0.3s ease-in',
       'glide-in-left-fast': 'glideInLeft 0.3s ease-in',
 
-      'fade-in': 'fadeIn 1s forwards',
+      'fade-in': 'fadeIn 2.5s forwards',
+      'fade-in-fast': 'fadeIn 1.5s forwards',
+
       'fade-out': 'fadeOut 0.75s forwards',
 
-      'glide-in-top': 'glideInTop 300ms ease-out',
+      'glide-in-top': 'glideInTop 1s ease-out',
       'glide-in-bottom': 'glideInBottom 01s ease-out',
       'glide-in-bottom-fast': 'glideInBottom 0.5s ease-out',
 
