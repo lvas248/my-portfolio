@@ -9,7 +9,7 @@ import FloatingActionButton from './Layout/FloatingActionButton';
 function App() {
 
   return (
-    <div className="App overflow-hidden bg-stone-300">
+    <div className="App overflow-hidden bg-stone-300 pb-[10vh]">
 
       <div
         className='max-w-[1050px] relative m-auto '

@@ -43,7 +43,7 @@ function EmailSender() {
     return ( 
 
 
-            <form onSubmit={sendEmail} className='relative w-[80vw] h-[60vh] sm:w-[67vw] max-w-[500px] m-auto  bgGreen text-white p-6 rounded-3xl border-black border-[6px]'>
+            <form onSubmit={sendEmail} className='relative w-[80vw] sm:w-[67vw] max-w-[500px] m-auto  bgGreen text-white p-6 rounded-3xl border-black border-[6px]'>
 
                 <div
                     className={`bgOrange absolute top-0 left-0 h-full w-full rounded-3xl text-white grid place-content-center animate-fade-in ${ !toggleNotify && 'hidden'}`}
@@ -65,7 +65,7 @@ function EmailSender() {
                         <input className='p-1 pl-2 rounded-xl bg-stone-200 text-black font-bold' placeholder='optional' name='company' value={emailObj.company} onChange={updateEmailObj}/>
 
                         <label className='font-bold'>message </label>
-                        <textarea className='col-span-2 p-1 pl-2 rounded-xl h-[150px] bg-stone-200 text-black font-bold' required name='message' value={emailObj.message} onChange={updateEmailObj} />
+                        <textarea className='col-span-2 p-1 pl-2 rounded-xl h-[15vh] bg-stone-200 text-black font-bold' required name='message' value={emailObj.message} onChange={updateEmailObj} />
 
                         <button className='border-2 w-full border-black p-2 sm:p-1 rounded-2xl bgOrange text-stone-200 font-bold'>Send Email</button>
 

@@ -75,6 +75,10 @@ module.exports = {
         '0%': { transform: 'scale(0)'},
         '100%': { transform: 'scale(1)'},
       },
+      scaleSelect:  {
+        '0%': { transform: 'scale(1)'},
+        '100%': { transform: 'scale(1.3)'},
+      }
 
 
     },
@@ -109,8 +113,9 @@ module.exports = {
 
       'wiggle-it':'wiggle 1s infinite',
 
-      'scale-in':'scaleIn 0.70s ease-out'
+      'scale-in':'scaleIn 0.70s ease-out',
 
+      'scale-select':'scaleSelect 0.3s forwards ease-out'
       
     },
   },

@@ -30,7 +30,7 @@ function Home() {
                     alt='place-holder' 
                     className='
                         animate-scale-in
-                        h-[60vw] sm:max-h-[370px] bgOrange pt-4 px-4 rounded-t-full border-black border-[6px]
+                        h-[35vh] bgOrange pt-4 px-4 rounded-t-full border-black border-[6px]
                         place-self-center
                     '
                 />

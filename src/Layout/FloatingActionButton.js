@@ -51,9 +51,10 @@ function FloatingActionButton() {
             <div className={`flex w-[70vw] place-content-end ${!isOpen && 'hidden'} ${isOpen && 'animate-fade-in'}
 `}>
 
-                <div className='w-full flex place-content-center place-self-end gap-3 m-auto'>
+                <div className='w-full flex place-content-center place-self-end gap-3 m-auto '>
+                    
                     <a href='https://github.com/lvas248'
-                        className=''
+                        className='hover:animate-scale-select'
                     >
                         <img 
                             className={`
@@ -62,7 +63,10 @@ function FloatingActionButton() {
                             alt='touch' src={github} />
                     </a>
 
-                    <a href='https://www.linkedin.com/in/lvas248/'>
+                    <a href='https://www.linkedin.com/in/lvas248/'
+                        className='hover:animate-scale-select'
+
+                    >
                         <img 
                             className={`
                             object-cover h-10 w-10 
@@ -70,9 +74,13 @@ function FloatingActionButton() {
                             alt='touch' src={linkedin} />               
                     </a>
                     
-                    <h4
-                        className={`text-[15px] place-self-center                    
-                        `}>lvas248@gmail.com</h4>                    
+                    
+                        <h4
+                            className={`text-[15px] my-auto font-bold 
+                            `}>lvas248@gmail.com</h4>                    
+
+                    
+
                 </div>
 
 
