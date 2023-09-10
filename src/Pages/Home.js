@@ -48,7 +48,7 @@ function Home() {
 
                 <div className={`p-5 m-auto text-white animate-fade-in ${!expand && 'hidden'}`}>
                     <h3>About.</h3>                    
-                    <p className='text-xs sm:text-sm'>Former Retail Operations Manager, I've steered through the fast-paced world of retail with precision and efficiency. Beyond retail, I've ventured into the realms of construction and architecture, finding appreciation in the process of crafting from the ground up. Today, my journey has brought me to web development, where I combine these experiences to create digital solutions with a solid foundation.</p>    
+                    <p className='text-xs sm:text-sm'>As a former Retail Operations Manager, I've navigated the fast-paced world of commerce with precision and efficiency. Beyond that, I've ventured into the realms of construction and architecture, finding appreciation in the process of crafting from the ground up. Today, my journey has led me to web development, where I leverage these experiences to build digital solutions that stand on a strong and sturdy base.</p>    
                 </div>   
 
 
