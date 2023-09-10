@@ -12,12 +12,12 @@ module.exports = {
         '100%': { transform: 'translateX(0)'},
       },
       glideInLeft: {
-        '0%': { transform: 'translateX(-150%)' },
-        '100%': { transform: 'translateX(0)' },
+        '0%': { transform: 'translateX(-150%)', opacity: 0 },
+        '100%': { transform: 'translateX(0)', opacity: 1 },
       },
       glideOutRight: {
-        '0%': { transform: 'translateX(0)'},
-        '100%': { transform: 'translateX(150%)'},
+        '0%': { transform: 'translateX(0)', opacity: 1},
+        '100%': { transform: 'translateX(150%)', opacity: 0},
       },
       glideOutLeft: {
         '0%': { transform: 'translateX(0)' },
@@ -79,6 +79,11 @@ module.exports = {
         '0%': { transform: 'scale(1)'},
         '100%': { transform: 'scale(1.3)'},
       },
+      delayedRotate: {
+        '0%': { transform: 'rotate(0)'},
+        '80%': { transform: 'rotate(0)'},
+        '100%': { transform: 'rotate(180deg)'},
+      }
 
 
     },
@@ -115,7 +120,9 @@ module.exports = {
 
       'scale-in':'scaleIn 0.70s ease-out',
 
-      'scale-select':'scaleSelect 0.3s forwards ease-out'
+      'scale-select':'scaleSelect 0.3s forwards ease-out', 
+
+      'delayed-rotate':'delayedRotate 2s ease-out infinite'
       
     },
   },

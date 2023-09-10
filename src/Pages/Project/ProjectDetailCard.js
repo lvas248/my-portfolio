@@ -30,7 +30,6 @@ function ProjectDetailCard({project, clearSelectedProject}){
             className={`
                     relative m-2 sm:m-auto 
                     p-[3vh] bgGreen text-white
-                    animate-fade-in-slow
                     rounded-3xl border-black border-[6px]
                     ${animateOut ? 'animate-glide-out-right-fast' : 'animate-glide-in-left-fast'}
                 `}

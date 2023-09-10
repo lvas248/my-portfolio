@@ -32,6 +32,8 @@ function FloatingActionButton() {
             <img 
                 className={`h-[30px] w-[30px] m-auto
                 ${isOpen && 'hidden'}
+                animate-delayed-rotate
+
                 `}
                 onClick={toggle}
                 alt='touch' src={moreLogo} 
