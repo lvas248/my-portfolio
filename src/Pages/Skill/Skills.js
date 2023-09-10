@@ -25,8 +25,8 @@ function Skills(){
             >frameworks.</h1>            
         </div>
 
-        <div className='m-auto text-xs sm:text-sm text-center font-bold textGreen w-[80vw] sm:w-[67vw]'>
-            <p>Take a peek into the machinery propelling my web development.</p>
+        <div className='m-auto text-xs sm:text-sm text-left font-bold textGreen w-[80vw] sm:w-[67vw]'>
+            <p>Explore the vast arsenal of languages, frameworks, and seamless integration of APIs in my toolkit.</p>
         </div>
 
 

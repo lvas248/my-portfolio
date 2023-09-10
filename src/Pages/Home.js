@@ -10,14 +10,10 @@ function Home() {
             >
 
             <div
-                className='h-[50vh] textGreen grid place-content-center text-center'
+                className='h-[50vh] textGreen grid place-content-center text-left m-auto w-[90vw]'
             >
-                <h1 className='text-[60px] font-bold '>Luis Vasquez.</h1>
-                {/* <h3 className=''>Full Stack Web Dev</h3> */}
-                {/* <h5 className='w-[40vw]'>I am a Professional End to End web developer with skills based in React and Rails. I am based in NYC</h5> */}
-                {/* <h5>I'm a web developer and programmer based out of nyc.  I make web apps with skills based in React.js and Rails.</h5> */}
-                {/* <h5>a full stack web dev.</h5> */}
-                <h5>a clever and witty blurb that describes what i do.</h5>
+                <h1 className='text-[60px] font-bold '> Luis Vasquez.</h1>
+                <h2>Full Stack Web Developer.</h2>
 
             </div>
 
