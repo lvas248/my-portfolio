@@ -61,16 +61,17 @@ module.exports = {
       },
       wiggle:{
         '0%': { transform: 'rotate(0)'},
-        '3%':{ transform: 'rotate(2deg)'},
+        '3%':{ transform: 'rotate(1deg)'},
         '6%':{ transform: 'rotate(0deg)'},
-        '9%':{ transform: 'rotate(-2deg)'},
+        '9%':{ transform: 'rotate(-1deg)'},
         '12%': { transform: 'rotate(0)'},
-        '15%':{ transform: 'rotate(2deg)'},
+        '15%':{ transform: 'rotate(1deg)'},
         '18%':{ transform: 'rotate(0deg)'},
-        '21%':{ transform: 'rotate(-2deg)'},
-        '24%':{ transform: 'rotate(-0)'},
+        '21%':{ transform: 'rotate(-1deg)'},
+        '24%':{ transform: 'rotate(0)'},
         '100%': { transform: 'rotate(0)'},
       },
+
       scaleIn: {
         '0%': { transform: 'scale(0)'},
         '100%': { transform: 'scale(1)'},

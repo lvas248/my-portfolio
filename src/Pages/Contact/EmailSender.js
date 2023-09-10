@@ -43,7 +43,7 @@ function EmailSender() {
     return ( 
 
 
-            <form onSubmit={sendEmail} className='relative w-[100%]  m-auto  bgGreen text-white p-6 rounded-3xl border-black border-[6px]'>
+            <form onSubmit={sendEmail} className='relative sm:w-[67%] m-auto  bgGreen text-white p-6 rounded-3xl border-black border-[6px]'>
 
                 <div
                     className={`bgOrange absolute top-0 left-0 h-full w-full rounded-3xl text-white grid place-content-center animate-fade-in ${ !toggleNotify && 'hidden'}`}
@@ -51,9 +51,9 @@ function EmailSender() {
                     <h1>email has been sent.</h1>
                 </div>
                 
-                <h1 className='text-left text-2xl font-bold text-white'>GET IN TOUCH</h1>
+                <h1 className='text-center text-2xl font-bold text-white '>GET IN TOUCH</h1>
 
-                <div className='flex flex-col p-1 text-left gap-2 text-xs sm:text-lg'>
+                <div className='flex flex-col p-1 text-left gap-2 text-xs sm:text-lg sm:w-[67%] m-auto'>
 
                         <label className='font-bold'>name</label>
                         <input className='p-1 pl-2 rounded-xl bg-stone-200 text-black font-bold' required name='name' value={emailObj.name} onChange={updateEmailObj}/>
