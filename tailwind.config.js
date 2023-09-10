@@ -78,7 +78,7 @@ module.exports = {
       scaleSelect:  {
         '0%': { transform: 'scale(1)'},
         '100%': { transform: 'scale(1.3)'},
-      }
+      },
 
 
     },
@@ -95,6 +95,7 @@ module.exports = {
 
       'fade-in': 'fadeIn 2.5s forwards',
       'fade-in-fast': 'fadeIn 1.5s forwards',
+      'fade-in-slow': 'fadeSlow 3s forwards',
 
       'fade-out': 'fadeOut 0.75s forwards',
 
@@ -107,7 +108,6 @@ module.exports = {
       'glide-from-second-position': 'glideIntoTwPosition 1s forwards',
 
       'select': 'scaleUp 0.75s forwards',
-      'fade-in-slow':'fadeIn 3s ease-out',
 
       'rotate-in':'rotateIn 0.5s ease-out',
 

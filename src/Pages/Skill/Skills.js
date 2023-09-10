@@ -13,15 +13,15 @@ function Skills(){
         className='min-h-screen max-w-[1050px] m-auto pt-[15vh] grid relative '
 
     >
-        <div className='pl-[10vw] flex '>
+        <div className='pl-[10vw] flex flex-col sm:flex-row '>
             <h1
-                className='text-left text-xl sm:text-3xl textOrange'
+                className='text-left text-[40px] sm:text-[50px] textOrange'
             >skills.</h1>
             <h1
-                className='text-left text-xl textGreen'
+                className='text-left text-[40px] sm:text-[50px] textGreen'
             >languages.</h1>
             <h1
-                className='text-left text-xl  text-white'
+                className='text-left text-[40px] sm:text-[50px] text-white'
             >frameworks.</h1>            
         </div>
 

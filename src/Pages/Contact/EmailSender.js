@@ -43,7 +43,7 @@ function EmailSender() {
     return ( 
 
 
-            <form onSubmit={sendEmail} className='relative w-[80vw] sm:w-[67vw] max-w-[500px] m-auto  bgGreen text-white p-6 rounded-3xl border-black border-[6px]'>
+            <form onSubmit={sendEmail} className='relative w-[100%]  m-auto  bgGreen text-white p-6 rounded-3xl border-black border-[6px]'>
 
                 <div
                     className={`bgOrange absolute top-0 left-0 h-full w-full rounded-3xl text-white grid place-content-center animate-fade-in ${ !toggleNotify && 'hidden'}`}

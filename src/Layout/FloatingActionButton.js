@@ -79,12 +79,7 @@ function FloatingActionButton() {
                             className={`text-[15px] my-auto font-bold 
                             `}>lvas248@gmail.com</h4>                    
 
-                    
-
                 </div>
-
-
-
 
             </div>
 

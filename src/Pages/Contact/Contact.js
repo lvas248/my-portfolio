@@ -11,7 +11,7 @@ function Contact() {
             <div className='min-h-[95vh] max-w-[1050px] m-auto pt-[12vh]'>
                 
                 <h1
-                    className='mb-3 font-bold pl-[10vw] text-left textGreen '
+                    className='mb-3 font-bold pl-[10vw] text-[40px] sm:text-[50px] text-left textGreen '
                 >contact.</h1>
 
                 <div className='mb-3 m-auto text-xs sm:text-sm text-left font-bold textGreen w-[80vw] sm:w-[67vw] max-w-[500px]'>

@@ -32,7 +32,7 @@ function ProjectsContainer(){
         >
 
             <h1
-                className='mt-2 textGreen font-bold pl-[10vw] text-left'
+                className='mt-2 textGreen font-bold pl-[10vw] text-left text-[40px] sm:text-[50px] '
             >projects.</h1>
 
             <div
