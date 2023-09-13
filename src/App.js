@@ -5,6 +5,7 @@ import ProjectsContainer from './Pages/Project/ProjectsContainer';
 import Skills from './Pages/Skill/Skills';
 import BottomBanner from './Layout/BottomBanner';
 import FloatingActionButton from './Layout/FloatingActionButton';
+import AltProjectContainer from './AltProject/AltProjectContainer';
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
         
         <Home /> 
         <Skills />
-        <ProjectsContainer />
+        {/* <ProjectsContainer /> */}
+        <AltProjectContainer />
         <Contact />    
         
         <FloatingActionButton />
