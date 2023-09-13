@@ -14,8 +14,8 @@ function Home() {
             <div
                 className={` rounded-3xl place-self-end border-black border-[6px] border-x-[6px] relative grid bgGreen p-4 
                  mt-[5vh]
-                 h-[60vh] sm:h-[35vh] md:h-[40vh] transition-height duration-500 overflow-hidden
-                ${expand && ' h-[80vh] sm:h-[54vh] md:h-[55vh] lg:h-[55vh] '}
+                 h-[65vh] sm:h-[35vh] md:h-[40vh] transition-height duration-500 
+                ${expand && ' h-[95vh] sm:h-[54vh] md:h-[55vh] lg:h-[55vh] '}
                 `}
             >
                 <div className='sm:grid sm:grid-cols-2  text-white'>
@@ -55,9 +55,10 @@ function Home() {
 
                 </div>   
 
-
-                <button onClick={()=>setExpand(!expand)} className={`textOrange m-auto flex py-4 flex-col text-center font-bold animate-fade-in ${expand && 'hidden'}`}>see more</button>
-                <button onClick={()=>setExpand(!expand)} className={`textOrange m-auto flex py-4 flex-col text-center font-bold animate-fade-in ${!expand && 'hidden'}`}>see less</button>
+                <div className='h-fit'>
+                    <button onClick={()=>setExpand(!expand)} className={`textOrange m-auto flex py-4 flex-col text-center font-bold animate-fade-in ${expand && 'hidden'}`}>see more</button>
+                    <button onClick={()=>setExpand(!expand)} className={`textOrange m-auto flex py-4 flex-col text-center font-bold animate-fade-in ${!expand && 'hidden'}`}>see less</button>
+                </div>
              
             
             </div>
