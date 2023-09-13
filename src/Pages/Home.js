@@ -8,14 +8,14 @@ function Home() {
     return ( 
         <div 
             id='home'
-            className='h-fit relative pt-[10vh]'
+            className='h-fit relative pt-[10vh] mx-2'
             >
 
             <div
                 className={` rounded-3xl place-self-end border-black border-[6px] border-x-[6px] relative grid bgGreen p-4 
                  mt-[5vh]
-                 h-[65vh] sm:h-[35vh] md:h-[40vh] transition-height duration-500 
-                ${expand && ' h-[97vh] sm:h-[54vh] md:h-[60vh] lg:h-[55vh] '}
+                 h-[65vh] sm:h-[35vh] md:h-[40vh]  transition-height duration-500 
+                ${expand && ' h-[97vh] sm:h-[54vh] md:h-[60vh]  '}
                 `}
             >
                 <div className='sm:grid sm:grid-cols-2  text-white'>
@@ -50,13 +50,13 @@ function Home() {
 
                 <div className={`p-4 m-auto mt-3 text-white animate-fade-in  ${expand ?'block': 'hidden'} border-t-[6px] border-black `}>
                     <h3 className=''>About.</h3>                    
-                    <p className='text-xs sm:text-xs'>As a former Retail Operations Manager, I became well-acquainted with the dynamic world of commerce, where precision and efficiency were the key to my success. My journey extended into the fields of construction and architecture, where I uncovered a genuine passion for building from the ground up. Today, I've shifted my focus to web development, drawing from these diverse experiences to craft websites and online apps firmly rooted in a strong foundation.</p>    
+                    <p className='text-xs sm:text-xs font-bold'>As a former Retail Operations Manager, I became well-acquainted with the dynamic world of commerce, where precision and efficiency were the key to my success. My journey extended into the fields of construction and architecture, where I uncovered a genuine passion for building from the ground up. Today, I've shifted my focus to web development, drawing from these diverse experiences to craft websites and online apps firmly rooted in a strong foundation.</p>    
 
                 </div>   
 
                 <div className='h-fit'>
                     <button onClick={()=>setExpand(!expand)} className={`textOrange m-auto flex py-4 flex-col text-center font-bold animate-fade-in ${expand && 'hidden'}`}>see more</button>
-                    <button onClick={()=>setExpand(!expand)} className={`textOrange m-auto flex py-4 flex-col text-center font-bold animate-fade-in ${!expand && 'hidden'}`}>see less</button>
+                    <button onClick={()=>setExpand(!expand)} className={`textOrange mx-auto place-self-start flex flex-col text-center font-bold animate-fade-in ${!expand && 'hidden'}`}>see less</button>
                 </div>
              
             

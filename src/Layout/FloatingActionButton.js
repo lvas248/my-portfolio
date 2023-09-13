@@ -71,7 +71,7 @@ function FloatingActionButton() {
                     >
                         <img 
                             className={`
-                            object-cover h-10 w-10 
+                            object-cover h-10 w-10 shadow-xl
                             `}
                             alt='touch' src={linkedin} />               
                     </a>

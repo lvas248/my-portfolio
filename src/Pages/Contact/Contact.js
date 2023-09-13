@@ -5,7 +5,7 @@ function Contact() {
     return ( 
         <div 
             id='contact'
-            className='min-h-[80vh]'
+            className='min-h-[80vh] mx-2'
             >
 
             <div className='min-h-[95vh] max-w-[1050px] m-auto pt-[12vh]'>
